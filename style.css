@@ -74,8 +74,8 @@ button{
 button:hover{
     background-color: rgb(243, 181, 216);
     text-decoration: underline;
-    font-size: 21px;
     font-weight: 550;
+    transform: scale(1.05);
 }
 #sociais{
     text-align: center;
@@ -89,7 +89,7 @@ button:hover{
 }
 
 #sociais a img:hover{
-    width: 55px;
+    transform: scale(1.1);
 }
 
 @media (max-width: 800px){
@@ -98,6 +98,9 @@ button:hover{
     }
     li{
         font-size: 1rem;
+    }
+    #sociais a img{
+        width: 35px;
     }
     #container{
         width: 70%;
